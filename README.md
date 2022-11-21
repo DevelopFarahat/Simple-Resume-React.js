@@ -1,1 +1,3 @@
-# Simple-Resume-React.js
+# Simple-Resume React.js App
+## Technologies  Uesd 
+### Html Css Javascript React.js
