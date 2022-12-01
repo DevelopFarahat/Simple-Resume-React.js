@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 10%;
+  position: relative;
 }
 
 .hero>h1 {
@@ -337,64 +338,64 @@ footer {
 
 @media screen and (max-width:742px) {
   .hero>span {
-    top: 50% !important;
-    left: 15% !important;
+    top: 50% ;
+    left: 15% ;
   }
 
   .hero>button {
-    left: 16% !important;
+    left: 16% ;
   }
-
-  @media screen and (min-width:300px) {
-    .hero>span {
-      top: 48%;
-      left: 19%;
-    }
-
-    .hero>button {
-      left: 24%;
-    }
-
+  @media screen and  (min-width:286px)  {
     .hero-about-section {
       padding: 10px;
     }
-
+  
     .hero-about-section>div {
       display: block;
       width: 100%;
       min-height: 50px;
     }
-
+  
     .hero-about-section>div:nth-child(2) {
       width: 100%;
       text-align: left;
       padding-left: 29px;
     }
-
+  
     .skill-section>div {
       flex-direction: column;
     }
-
+  
     .skill-section>div>div {
       width: 100%;
     }
-
+  
     .skill-detail {
       padding-left: 35px;
     }
-
+  
     .portfolio-details {
       flex-direction: column;
     }
-
+  
     .proto {
       width: 80%;
       flex: 0 0 150px !important;
     }
-
+  
     footer {
       flex-direction: column;
     }
-
+    @media screen and (max-width361px){
+      .hero>span {
+        top: 48%;
+        left: 19%;
+      }
+    
+      .hero>button {
+        left: 24%;
+      }
+    }
+  
   }
 }
